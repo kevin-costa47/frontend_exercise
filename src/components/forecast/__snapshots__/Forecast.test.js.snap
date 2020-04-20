@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forecast should render the Forecast Component correctly 1`] = `
+<Forecast>
+  <div
+    className="data_row"
+    key="0"
+  >
+    <div
+      className="grid_forecast"
+    >
+      <h3
+        className="all-center"
+      >
+        <b />
+        23 Date
+      </h3>
+      <h3
+        className="all-center"
+      >
+        <b>
+          Max. Temperature:
+        </b>
+        25ºC
+      </h3>
+      <h3
+        className="all-center"
+      >
+        <b>
+          Min. Temperature:
+        </b>
+        20ºC
+      </h3>
+      <h3
+        className="all-center"
+      >
+        <b>
+          Precipitation Probability (%):
+        </b>
+        30
+      </h3>
+    </div>
+  </div>
+</Forecast>
+`;

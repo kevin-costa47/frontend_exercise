@@ -1,0 +1,64 @@
+/* Center All */
+.item-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Row */
+.card {
+  padding: 0.5rem 0;
+  border: #ccc 1px dotted;
+  display: flex;
+}
+
+.home_layout {
+  border: 1px solid #ccc;
+
+  height: 90vh;
+  margin: 20px;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.home_layout_region,
+.home_layout_forecast {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  align-content: space-between;
+  flex: 0 1 auto;
+}
+.region_layout,
+.forecast_layout {
+  max-height: calc(100% - 100px) !important;
+  overflow: auto;
+}
+
+.forecastHeader {
+  height: 70px;
+  border: 1px dashed #ccc;
+  text-decoration: underline;
+  margin: 2px 15px 12px 0px !important;
+}
+
+.search {
+  width: 35%;
+}

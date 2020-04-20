@@ -1,0 +1,9 @@
+.search_input input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  margin: 12px 0px 12px 0px;
+  height: 40px;
+}

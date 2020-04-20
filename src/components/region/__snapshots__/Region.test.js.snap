@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Region should render the Region Component correctly 1`] = `
+<Region>
+  <div
+    className="data_row"
+    key="1010500"
+  >
+    <div
+      className="grid_regions_data"
+    >
+      <h3
+        className="all-center"
+      >
+        AVR 1010500
+      </h3>
+      <button
+        className="btn_show_forecast"
+        onClick={[Function]}
+      >
+        Show
+      </button>
+    </div>
+  </div>
+</Region>
+`;
